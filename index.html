@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <!-- Navbar -->
+    <header class="header">
+        <div class="logo">
+            <h2>Learn<span>English</span></h2>
+        </div>
+        <nav>
+            <div class="menu-toggle">&#9776;</div>
+            <ul class="menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#videos" class="nav-link">Videos</a></li>
+                <li><a href="#contact" class="request nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="featured-image" data-sr-id="6"
+            style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.3s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.3s;">
+            <div class="image">
+                <img src="https://yt3.googleusercontent.com/cQa0sPM4Dxc_75eV5-Dq8LUzB3jpdvFN8GyRNRU8eq1b9yXl4-LvfsSgwCVBlqwJ4DiGGkzurQ=s160-c-k-c0x00ffffff-no-rj"
+                    alt="avatar">
+            </div>
+        </div>
+        <div class="hero-content">
+            <h2>
+                <span>Master English with Expert </span><span class="company span"><span
+                        class="typedText"></span></span>
+            </h2>
+            <p>Join thousands of learners and enhance your language skills through personalized coaching.</p>
+            <div class="ybtns">
+                <a class="cta-button" href="#videos">Start Learning</a>
+                <a class="cta-button" href="https://www.youtube.com/@SAGARRAJ" target="_blank">YouTube</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <h2>About</h2>
+        <hr>
+        <div class="whole-about">
+            <div class="about-card">
+                <p class="about-text">
+                    With <strong>over 7 years of experience</strong> in teaching English, we focus on cultivating
+                    <strong>fluency</strong>
+                    and <strong>confidence</strong> in our students. Our offerings include personalized coaching
+                    tailored to
+                    individual needs,
+                    engaging and <strong>interactive lessons</strong>, and continuous support designed to help you
+                    achieve your
+                    language goals.
+                    Our approach empowers students and creates a comfortable, inspiring learning environment.
+                </p>
+
+                <button class="about-more">About More <i class="fas fa-chevron-down"></i></button>
+
+                <!-- Inside your about section -->
+                <div id="more-content" class="hidden">
+                    <div class="count-card">
+                        <h3>Experience</h3>
+                        <p class="count" id="experience-count">0+</p>
+                        <p class="p">Years of teaching expertise in language education.</p>
+                    </div>
+                    <div class="count-card">
+                        <h3>Successful Students</h3>
+                        <p class="count" id="students-count">0+</p>
+                        <p class="p">Students who have achieved their goals through our programs.</p>
+                    </div>
+                    <div class="count-card">
+                        <h3>Courses Offered</h3>
+                        <p class="count" id="courses-count">0+</p>
+                        <p class="p">Different language courses designed for various skill levels.</p>
+                    </div>
+                    <div class="count-card">
+                        <h3>Workshops Conducted</h3>
+                        <p class="count" id="workshops-count">0+</p>
+                        <p class="p">Interactive workshops focused on practical skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="services">
+        <h2 class="services">Our Services</h2>
+        <hr>
+        <div class="about-cards">
+            <div class="card">
+                <i class="fas fa-chalkboard-teacher card-image"></i>
+                <h3>Personalized Coaching</h3>
+                <p class="about-text">
+                    Tailored sessions that cater to your specific learning needs and preferences.
+                </p>
+            </div>
+            <div class="card">
+                <i class="fas fa-comments card-image"></i>
+                <h3>Interactive Lessons</h3>
+                <p class="about-text">
+                    Engaging and practical lessons that enhance your language skills in real-life scenarios.
+                </p>
+            </div>
+            <div class="card">
+                <i class="fas fa-graduation-cap card-image"></i>
+                <h3>Expert Guidance</h3>
+                <p class="about-text">
+                    Benefit from the experience and insights of our skilled language instructors.
+                </p>
+            </div>
+            <div class="card">
+                <i class="fas fa-users card-image"></i>
+                <h3>Group Workshops</h3>
+                <p class="about-text">
+                    Collaborative workshops that foster community learning and peer interaction.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- YouTube Videos Section -->
+    <section id="videos" class="videos">
+        <h2>Watch Our Videos</h2>
+        <hr>
+        <div class="video-container">
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/4t_hOqfGnY4?si=SJFHEKbjk4x6tm6x" frameborder="0"
+                    allowfullscreen></iframe>
+                <h3>The Summer Of the Beautiful White Horse short answer and long answers. </h3>
+            </div>
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/sBZodM0u4bY?si=b6-UxphBV3rXP7rY" frameborder="0"
+                    allowfullscreen></iframe>
+                <h3>Reference context and explanation of the poem A Photograph by Shirley Toulsan</h3>
+            </div>
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/VYjEcJ2g_uM?si=SalSopYxCc5PyuZu" frameborder="0"
+                    allowfullscreen></iframe>
+                <h3>Discovering Tut The Saga Continues short and long answers</h3>
+            </div>
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/3cAeO1ZztlQ?si=comPlaDaYpMvGbCN" frameborder="0"
+                    allowfullscreen></iframe>
+                <h3>Short answer type questions of A Letter to God</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content contact-us-content">
+            <h1>CONTACT US</h1>
+            <hr>
+        </div>
+        <div class="contact-l">
+            <script src="https://sheetdb.io/s/f/2yv704u8tnkzz.js"></script>
+        </div>
+    </section>
+
+    <section class="get-in-touch">
+        <div class="head">
+            <h3>GET IN TOUCH</h3>
+            <hr>
+            <p>Contact us for any queries or support – we’re here to help!</p>
+        </div>
+        <div class="grp">
+            <div class="info">
+                <p class="email">
+                    Email:
+                    <a href="mailto:beingxbot@gmail.com">beingxbot@gmail.com</a>
+                </p>
+                <p class="phone" id="phone1">
+                    Phone1: +91 7079490430
+                </p>
+                <p class="phone" id="phone2">
+                    Phone2: +91 8340634394
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 LearnEnglish. All rights reserved. Designed By <a href="https://beingxbot.onrender.com" target="_blank" style=" text-decoration: none;
+                font-weight: 900;
+                color: #4C25D9;">BeingxBot</a> and <a href="amityadavtech.github.io" style="text-decoration: none;
+    font-weight: 900;
+    color: #4C25D9;">Amit Yadav</a></p>
+            <div class="social-icons">
+                <a href="#" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="github.com/amityadavtech/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
